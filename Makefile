@@ -46,3 +46,33 @@ docker-compilemessages: ## Compile docker translations in the docker environment
 
 docker-pw: ## Change the django superuser password in the docker environment
 	@docker exec -it freedomvote_web_1 python app/manage.py changepassword ${DJANGO_ADMIN_USER}
+
+postgres-init: ## Initate a new freedomvote database
+	@createuser postgres -P -d
+	@createdb freedomvote -U postgres
+	@psql -h localhost -U postgres freedomvote < tools/docker/cache_table.sql
+	@python app/manage.py migrate
+
+postgres-drop: ## Drop the postgres database
+	@dropdb freedomvote
+	@dropuser postgres
+
+run-python: ## Run python commands
+	@python app/manage.py createsuperuser
+	@python app/manage.py runserver
+
+# Superuser:
+# freedomvote
+# freedomvote
+
+translations-compile: ## Compile translation files
+	@python app/manage.py compilemessages
+
+translations-update: ## Updated messages based on translations
+	@python app/manage.py makemigrations
+	@python app/manage.py migrate
+	@python app/manage.py makemessages
+	@python app/manage.py compilemessages
+
+run: ## Run
+	@python app/manage.py runserver
