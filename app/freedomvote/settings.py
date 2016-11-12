@@ -171,14 +171,15 @@ DATABASES = {
 # Internationalization
 # https://docs.djangoproject.com/en/1.7/topics/i18n/
 
-LANGUAGE_CODE = 'de'
+LANGUAGE_CODE = 'nl'
 
-MODELTRANSLATION_DEFAULT_LANGUAGE = 'de'
+MODELTRANSLATION_DEFAULT_LANGUAGE = 'nl'
 
 LANGUAGES = (
     ('de', _('german')),
     ('fr', _('french')),
     ('it', _('italian')),
+    ('nl', _('nederlands')),
 )
 
 TIME_ZONE = 'UTC'
