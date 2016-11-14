@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-12 15:09+0000\n"
-"PO-Revision-Date: 2016-11-12 16:08+0100\n"
+"POT-Creation-Date: 2016-11-14 20:13+0000\n"
+"PO-Revision-Date: 2016-11-14 21:41+0100\n"
 "Last-Translator: Nico Rikken <nico.rikken@fsfe.org>\n"
 "Language-Team: Netherlands <nl@li.org>\n"
 "Language: nl\n"
@@ -40,7 +40,6 @@ msgstr "Kandidaten"
 msgid "name"
 msgstr "Naam"
 
-# TODO: Sluit deze term aan bij het gebruik ervan?
 #: app/core/models.py:25 app/core/models.py:112
 #: app/core/templates/core/party/dashboard.html:53
 #: app/core/templates/core/profile/description.html:11 app/core/views.py:592
@@ -64,10 +63,9 @@ msgstr "Partij"
 msgid "parties"
 msgstr "Partijen"
 
-# TODO: puntjes op de e
 #: app/core/models.py:60
 msgid "categories"
-msgstr "Categorieen"
+msgstr "Categorieën"
 
 #: app/core/models.py:66
 msgid "user"
@@ -91,15 +89,13 @@ msgstr "E-mail"
 msgid "image"
 msgstr "Afbeelding"
 
-# TODO: how wordt dit gebruikt?
 #: app/core/models.py:93 app/core/templates/core/profile/description.html:29
 msgid "is_member_of_parliament"
-msgstr "Neemt zitting in de notionale- of lokale raad"
+msgstr "Lid van een nationale- of lokale raad"
 
-# TODO: Bijdragen aan/tot/voor ?
 #: app/core/models.py:97 app/core/templates/core/profile/description.html:21
 msgid "past_contributions"
-msgstr "Eerdere bijdragen aan dit onderwerp"
+msgstr "Eerdere bijdragen over dit onderwerp"
 
 #: app/core/models.py:101 app/core/templates/core/profile/description.html:25
 msgid "future_plans"
@@ -118,16 +114,14 @@ msgstr "Andere partij"
 msgid "politician"
 msgstr "Politicus"
 
-# TODO: is dit correct?
 #: app/core/models.py:180
 msgid "politicians"
-msgstr "Politica"
+msgstr "Politici"
 
 #: app/core/models.py:186
 msgid "icon"
-msgstr "Icoon"
+msgstr "Pictogram"
 
-# Q: Wat wordt hiermee bedoeld? Wordt een soort link er politicus aangemaakt?
 #: app/core/models.py:194 app/core/templates/core/edit/links.html:21
 msgid "link_type"
 msgstr "Linktype"
@@ -178,7 +172,6 @@ msgstr "Vraag"
 msgid "questions"
 msgstr "Vragen"
 
-# TODO: Goed genoeg zo?
 #: app/core/models.py:253
 msgid "agreement_level"
 msgstr "Gelijkenis"
@@ -213,7 +206,7 @@ msgstr "Sorteren op categorie"
 
 #: app/core/templates/core/candidates/filter.html:22
 msgid "filter_by_state"
-msgstr "Sorteren op kiesdistrict"
+msgstr "Sorteren op kieskring"
 
 #: app/core/templates/core/candidates/filter.html:39
 msgid "search"
@@ -225,27 +218,27 @@ msgstr "Filteren"
 
 #: app/core/templates/core/candidates/index.html:14
 msgid "opinion_admin"
-msgstr "Onze mening"
+msgstr "Ons standpunt"
 
 #: app/core/templates/core/candidates/index.html:19
 #: app/core/templates/core/candidates/index.html:28
 msgid "own_opinion"
-msgstr "Uw mening"
+msgstr "Uw standpunt"
 
 #: app/core/templates/core/candidates/index.html:26
 #: app/core/templates/core/profile/description.html:39
 msgid "add_own_opinion"
-msgstr "Uw eigen mening invoeren"
+msgstr "Uw eigen standpunt invoeren"
 
 #: app/core/templates/core/candidates/index.html:27
 msgid "add_own_opinion_here"
-msgstr "Klik hier om uw eigen mening in te voeren"
+msgstr "Klik hier om uw eigen standpunt in te voeren"
 
 #: app/core/templates/core/compare/index.html:13
 #: app/core/templates/core/edit/questions.html:11
 #: app/core/templates/core/profile/questions.html:3
 msgid "your_opinion_to"
-msgstr "Uw mening over…"
+msgstr "Uw standpunt over…"
 
 #: app/core/templates/core/compare/index.html:43
 msgid "evaluate"
@@ -269,10 +262,10 @@ msgstr "Link toevoegen"
 msgid "profile"
 msgstr "Profiel"
 
-# TODO: Enkelvoud of meervoud?
+# If the profile has no index party but an other one, typically a one-person party.
 #: app/core/templates/core/edit/profile.html:44
 msgid "other"
-msgstr "Anderen"
+msgstr "Anders"
 
 #: app/core/templates/core/edit/profile.html:67
 msgid "file_too_large"
@@ -320,16 +313,13 @@ msgstr "Exporteren"
 msgid "logout"
 msgstr "Uitloggen"
 
-# TODO: meervoud politicus?
 #: app/core/templates/core/party/dashboard.html:46
 msgid "created_politicians"
-msgstr "Aangemaakte politica"
+msgstr "Aangemaakte politici"
 
-# TODO: Welke term voor clipboard?
-# TODO: puntjes op de e
 #: app/core/templates/core/party/dashboard.html:64
 msgid "copy_to_clipboard"
-msgstr "URL kopieren naar plakbord"
+msgstr "URL kopiëren naar klembord"
 
 #: app/core/templates/core/party/dashboard.html:65
 msgid "edit_politician"
@@ -342,7 +332,7 @@ msgstr "Politicus verwijderen"
 # TODO: Vergelijkbaar met eerdere opmerking over plakboek?
 #: app/core/templates/core/party/dashboard.html:79
 msgid "copy_url_text"
-msgstr "URL kopieren naar plakbord"
+msgstr "URL kopiëren naar klembord"
 
 #: app/core/templates/core/party/dashboard.html:83
 msgid "close"
@@ -352,7 +342,6 @@ msgstr "Sluiten"
 msgid "login_label"
 msgstr "Voer a.u.b. uw wachtwoord in"
 
-# TODO: is dit een actie?
 #: app/core/templates/core/party/login.html:12
 msgid "login"
 msgstr "Log in"
@@ -373,7 +362,6 @@ msgstr "Eigen antwoord"
 msgid "politician_answer"
 msgstr "Antwoord politicus"
 
-# TODO: zo goed?
 #: app/core/views.py:144
 msgid "answers_saved_successfully_evaluate"
 msgstr "Uw antwoorden zijn succesvol opgeslagen. U kunt ze nu terugzien."
@@ -457,7 +445,7 @@ msgstr "Broncode"
 #: app/templates/index.html:30
 msgid "noscript"
 msgstr ""
-"Deze website functioneert alleen volledig als Javascript geactivieert is."
+"Deze website functioneert alleen volledig als Javascript geactiveerd is."
 
 #: app/templates/navbar.html:7
 msgid "toggle_navigation"
