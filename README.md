@@ -33,6 +33,17 @@ $ python app/manage.py runserver
 
 Now you can access the frontend on http://localhost:8000
 
+### Postgresql on Debian
+
+`sudo apt install postgresql postgresql-client`
+
+```bash
+$ sudo -u postgres bash
+$ cd /
+$ createuser freedomvote -P -d -g postgres
+$ createdb -O postgres freedomvote
+```
+
 ## The easy way - Docker
 To run Freedomvote in a docker container, you need to install docker and docker-compose and execute those commands:
 

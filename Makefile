@@ -48,9 +48,9 @@ docker-pw: ## Change the django superuser password in the docker environment
 	@docker exec -it freedomvote_web_1 python app/manage.py changepassword ${DJANGO_ADMIN_USER}
 
 postgres-init: ## Initate a new freedomvote database
-	@createuser postgres -P -d
-	@createdb freedomvote -U postgres
-	@psql -h localhost -U postgres freedomvote < tools/docker/cache_table.sql
+	@createuser freedomvote -P -d
+	@createdb freedomvote -U freedomvote
+	@psql -h localhost -U freedomvote freedomvote < tools/docker/cache_table.sql
 	@python app/manage.py migrate
 
 postgres-drop: ## Drop the postgres database
