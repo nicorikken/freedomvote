@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-16 06:27+0000\n"
-"PO-Revision-Date: 2016-11-16 07:26+0100\n"
+"POT-Creation-Date: 2016-11-16 07:12+0000\n"
+"PO-Revision-Date: 2016-11-16 08:09+0100\n"
 "Last-Translator: Nico Rikken <nico.rikken@fsfe.org>\n"
 "Language-Team: Netherlands <nl@li.org>\n"
 "Language: nl\n"
@@ -329,7 +329,6 @@ msgstr "Politicus bewerken"
 msgid "delete_politician"
 msgstr "Politicus verwijderen"
 
-# TODO: Vergelijkbaar met eerdere opmerking over plakboek?
 #: app/core/templates/core/party/dashboard.html:79
 msgid "copy_url_text"
 msgstr "URL kopiëren naar klembord"
@@ -427,8 +426,12 @@ msgid "italian"
 msgstr "Italiaans"
 
 #: app/freedomvote/settings.py:182
-msgid "nederlands"
+msgid "dutch"
 msgstr "Nederlands"
+
+#: app/freedomvote/settings.py:183
+msgid "english"
+msgstr "Engels"
 
 #: app/templates/404.html:6
 msgid "page_not_found"
@@ -467,7 +470,7 @@ msgstr "Menu omschakelen"
 #~ msgstr "Details"
 
 #~ msgid "applies_not"
-#~ msgstr "Trifft gar nicht zu"
+#~ msgstr "Niet van toepassing"
 
 #~ msgid "applies"
-#~ msgstr "Trifft voll und ganz zu"
+#~ msgstr "Van toepassing"

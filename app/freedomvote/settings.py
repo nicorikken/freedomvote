@@ -179,7 +179,8 @@ LANGUAGES = (
     ('de', _('german')),
     ('fr', _('french')),
     ('it', _('italian')),
-    ('nl', _('nederlands')),
+    ('nl', _('dutch')),
+    ('en', _('english'))
 )
 
 TIME_ZONE = 'UTC'

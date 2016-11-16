@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-16 06:27+0000\n"
-"PO-Revision-Date: 2016-11-16 07:25+0100\n"
+"POT-Creation-Date: 2016-11-16 07:12+0000\n"
+"PO-Revision-Date: 2016-11-16 08:11+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -426,8 +426,12 @@ msgid "italian"
 msgstr "Italiano"
 
 #: app/freedomvote/settings.py:182
-msgid "nederlands"
-msgstr ""
+msgid "dutch"
+msgstr "Neerlandese"
+
+#: app/freedomvote/settings.py:183
+msgid "english"
+msgstr "Inglese"
 
 #: app/templates/404.html:6
 msgid "page_not_found"
@@ -448,6 +452,9 @@ msgstr "Questo sito sarà completa solo se javascript è abilitato."
 #: app/templates/navbar.html:7
 msgid "toggle_navigation"
 msgstr "Menu di commutazione"
+
+#~ msgid "nederlands"
+#~ msgstr "neerlandese"
 
 #~ msgid "partners"
 #~ msgstr "Partner"
