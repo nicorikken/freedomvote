@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-14 20:33+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2016-11-16 06:27+0000\n"
+"PO-Revision-Date: 2016-11-16 07:25+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -149,7 +149,7 @@ msgstr "Link"
 
 #: app/core/models.py:218
 msgid "preferred_answer"
-msgstr "Risposta preferita"
+msgstr "Risposta preferita (0-10)"
 
 #: app/core/models.py:221
 msgid "question_number"
