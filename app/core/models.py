@@ -105,7 +105,7 @@ class Politician(models.Model):
         verbose_name        = _('unique_key'),
         default             = generate_url
     )
-    state                   = models.ForeignKey(
+    state                   = models.ManyToManyField(
         State,
         null                = True,
         blank               = True,

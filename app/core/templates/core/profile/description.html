@@ -8,8 +8,16 @@
         <h2 class="mt0">{{ politician.first_name }} {{ politician.last_name }}</h2>
 
         <div class="row">
+            {% if politician.state.count > 1 %}
+            <div class="col-md-6"><strong>{% trans 'states' %}</strong></div>
+            <div class="col-md-6">
+                {{politician.state.count}}
+                {% else %}
             <div class="col-md-6"><strong>{% trans 'state' %}</strong></div>
-            <div class="col-md-6">{{politician.state_name}}</div>
+            <div class="col-md-6">
+                {{politician.state.first.name}}
+                {% endif %}
+            </div>
         </div>
 
         <div class="row">
