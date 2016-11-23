@@ -10,13 +10,11 @@
         <div class="row">
             {% if politician.state.count > 1 %}
             <div class="col-md-6"><strong>{% trans 'states' %}</strong></div>
-            <div class="col-md-6">
-                {{politician.state.count}}
-                {% else %}
+            {% else %}
             <div class="col-md-6"><strong>{% trans 'state' %}</strong></div>
+            {% endif %}
             <div class="col-md-6">
-                {{politician.state.first.name}}
-                {% endif %}
+                {{politician.state_name}}
             </div>
         </div>
 
