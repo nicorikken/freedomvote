@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-16 07:12+0000\n"
-"PO-Revision-Date: 2016-11-16 08:09+0100\n"
+"POT-Creation-Date: 2016-11-24 07:22+0000\n"
+"PO-Revision-Date: 2016-11-24 08:21+0100\n"
 "Last-Translator: Nico Rikken <nico.rikken@fsfe.org>\n"
 "Language-Team: Netherlands <nl@li.org>\n"
 "Language: nl\n"
@@ -22,8 +22,8 @@ msgstr ""
 msgid "unique_url"
 msgstr "Toegangslink"
 
-#: app/core/admin.py:44 app/core/models.py:59 app/core/models.py:225
-#: app/core/models.py:271
+#: app/core/admin.py:44 app/core/models.py:59 app/core/models.py:227
+#: app/core/models.py:273
 msgid "category"
 msgstr "Categorie"
 
@@ -36,26 +36,28 @@ msgid "candidates"
 msgstr "Kandidaten"
 
 #: app/core/models.py:18 app/core/models.py:33 app/core/models.py:52
-#: app/core/models.py:190
+#: app/core/models.py:192
 msgid "name"
 msgstr "Naam"
 
 #: app/core/models.py:25 app/core/models.py:112
 #: app/core/templates/core/party/dashboard.html:53
-#: app/core/templates/core/profile/description.html:11 app/core/views.py:592
+#: app/core/templates/core/profile/description.html:27 app/core/views.py:592
 msgid "state"
-msgstr "Kiesdistrict"
+msgstr "Kieskring"
 
-#: app/core/models.py:26
+#: app/core/models.py:26 app/core/models.py:157
+#: app/core/templates/core/profile/description.html:18
+#: app/core/templates/core/profile/description.html:21
 msgid "states"
-msgstr "Kiesdistricten"
+msgstr "Kieskringen"
 
 #: app/core/models.py:37
 msgid "shortname"
 msgstr "Afkorting"
 
 #: app/core/models.py:44 app/core/models.py:118
-#: app/core/templates/core/profile/description.html:16
+#: app/core/templates/core/profile/description.html:35
 msgid "party"
 msgstr "Partij"
 
@@ -89,15 +91,15 @@ msgstr "E-mail"
 msgid "image"
 msgstr "Afbeelding"
 
-#: app/core/models.py:93 app/core/templates/core/profile/description.html:29
+#: app/core/models.py:93 app/core/templates/core/profile/description.html:48
 msgid "is_member_of_parliament"
 msgstr "Lid van een nationale- of lokale raad"
 
-#: app/core/models.py:97 app/core/templates/core/profile/description.html:21
+#: app/core/models.py:97 app/core/templates/core/profile/description.html:40
 msgid "past_contributions"
 msgstr "Eerdere bijdragen over dit onderwerp"
 
-#: app/core/models.py:101 app/core/templates/core/profile/description.html:25
+#: app/core/models.py:101 app/core/templates/core/profile/description.html:44
 msgid "future_plans"
 msgstr "Intenties en plannen"
 
@@ -109,94 +111,94 @@ msgstr "Toeganscode"
 msgid "party_other"
 msgstr "Andere partij"
 
-#: app/core/models.py:179 app/core/models.py:205 app/core/models.py:250
-#: app/core/models.py:267
+#: app/core/models.py:181 app/core/models.py:207 app/core/models.py:252
+#: app/core/models.py:269
 msgid "politician"
 msgstr "Politicus"
 
-#: app/core/models.py:180
+#: app/core/models.py:182
 msgid "politicians"
 msgstr "Politici"
 
-#: app/core/models.py:186
+#: app/core/models.py:188
 msgid "icon"
 msgstr "Pictogram"
 
-#: app/core/models.py:194 app/core/templates/core/edit/links.html:21
+#: app/core/models.py:196 app/core/templates/core/edit/links.html:21
 msgid "link_type"
 msgstr "Linktype"
 
-#: app/core/models.py:195
+#: app/core/models.py:197
 msgid "link_types"
 msgstr "Linktypen"
 
-#: app/core/models.py:201
+#: app/core/models.py:203
 msgid "type"
 msgstr "Type"
 
-#: app/core/models.py:208 app/core/templates/core/edit/links.html:29
+#: app/core/models.py:210 app/core/templates/core/edit/links.html:29
 msgid "url"
 msgstr "URL"
 
-#: app/core/models.py:212
+#: app/core/models.py:214
 msgid "link"
 msgstr "Link"
 
-#: app/core/models.py:213 app/core/templates/core/edit/profile.html:83
-#: app/core/templates/core/profile/description.html:46
+#: app/core/models.py:215 app/core/templates/core/edit/profile.html:83
+#: app/core/templates/core/profile/description.html:65
 msgid "links"
 msgstr "Links"
 
-#: app/core/models.py:218
+#: app/core/models.py:220
 msgid "preferred_answer"
 msgstr "Voorkeursantwoord (0-10)"
 
-#: app/core/models.py:221
+#: app/core/models.py:223
 msgid "question_number"
 msgstr "Vraag nummer"
 
-#: app/core/models.py:228
+#: app/core/models.py:230
 msgid "text"
 msgstr "Tekst"
 
-#: app/core/models.py:233
+#: app/core/models.py:235
 msgid "description"
 msgstr "Beschrijving"
 
-#: app/core/models.py:238 app/core/models.py:246
+#: app/core/models.py:240 app/core/models.py:248
 #: app/core/templates/core/helpers/readonly-slider-text.html:1
 msgid "question"
 msgstr "Vraag"
 
-#: app/core/models.py:239 app/core/templates/core/edit/menu.html:8
+#: app/core/models.py:241 app/core/templates/core/edit/menu.html:8
 msgid "questions"
 msgstr "Vragen"
 
-#: app/core/models.py:253
+#: app/core/models.py:255
 msgid "agreement_level"
 msgstr "Gelijkenis"
 
-#: app/core/models.py:256 app/core/templates/core/edit/questions.html:36
+#: app/core/models.py:258 app/core/templates/core/edit/questions.html:36
 msgid "note"
 msgstr "Opmerking"
 
-#: app/core/models.py:260
+#: app/core/models.py:262
 msgid "answer"
 msgstr "Antwoord"
 
-#: app/core/models.py:261
+#: app/core/models.py:263
 msgid "answers"
 msgstr "Antwoorden"
 
-#: app/core/models.py:274
+#: app/core/models.py:276
 msgid "value"
 msgstr "Waarde"
 
-#: app/core/models.py:306
+#: app/core/models.py:308
 msgid "statistic"
 msgstr "Statistiek"
 
-#: app/core/models.py:307
+#: app/core/models.py:309
 msgid "statistics"
 msgstr "Statistieken"
 
@@ -226,7 +228,7 @@ msgid "own_opinion"
 msgstr "Uw standpunt"
 
 #: app/core/templates/core/candidates/index.html:26
-#: app/core/templates/core/profile/description.html:39
+#: app/core/templates/core/profile/description.html:58
 msgid "add_own_opinion"
 msgstr "Uw eigen standpunt invoeren"
 
@@ -283,17 +285,17 @@ msgstr "Antwoorden intrekken"
 msgid "toggle_description"
 msgstr "Beschrijving…"
 
-#: app/core/templates/core/helpers/question_text.html:13
+#: app/core/templates/core/helpers/question_text.html:11
 msgid "no_question_description"
 msgstr "Geen beschrijving beschikbaar"
 
 #: app/core/templates/core/helpers/scale.html:4
-#: app/core/templates/core/profile/description.html:30
+#: app/core/templates/core/profile/description.html:49
 msgid "no"
 msgstr "Nee"
 
 #: app/core/templates/core/helpers/scale.html:9
-#: app/core/templates/core/profile/description.html:30
+#: app/core/templates/core/profile/description.html:49
 msgid "yes"
 msgstr "Ja"
 
@@ -349,7 +351,7 @@ msgstr "Log in"
 msgid "dashboard"
 msgstr "Dashboard"
 
-#: app/core/templates/core/profile/description.html:34
+#: app/core/templates/core/profile/description.html:53
 msgid "show_own_spider"
 msgstr "Eigen mening bekijken"
 

@@ -154,18 +154,18 @@ class Politician(models.Model):
     @property
     def state_name(self):
         if self.state.count() > 1:
-            return '%s...' % self.state.count()
+            return '%s %s' % (self.state.count(), _('states'))
         elif self.state.count() == 1:
             return self.state.first().name
         else:
             return '-'
 
     def get_details(self):
-        if not self.party and not self.state:
+        if not self.party and not self.party_other and not self.state:
             return ''
-        elif self.party and not self.state:
+        elif (self.party or self.party_other) and not self.state:
             return '(%s)' % self.party_short
-        elif not self.party and self.state:
+        elif not self.party and not self.party_other and self.state:
             return '(%s)' % self.state_name
         else:
             return '(%s, %s)' % (self.state_name, self.party_short)
