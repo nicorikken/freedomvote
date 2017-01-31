@@ -26,7 +26,7 @@ DEFAULT_SETTINGS = {
     },
     'GLOBAL'       : {
         'DEBUG'    : 'True',
-        'BASE_URL' : 'http://localhost:8000',
+        'BASE_URL' : 'https://freedomvote.nl',
     },
     'PIWIK'        : {
         'SITE_ID'  : 0,
@@ -55,9 +55,9 @@ except:
 SECRET_KEY = '%xky6n0ak0m*97&3o=zd45_w7o(q(1)o^54y(6)c34rl1u4m^_'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = DEFAULT_SETTINGS['GLOBAL']['DEBUG'].lower() == 'true'
-THUMBNAIL_DEBUG = True
-TEMPLATE_DEBUG = True
+DEBUG = DEFAULT_SETTINGS['GLOBAL']['DEBUG'].lower() == 'false'
+THUMBNAIL_DEBUG = False
+TEMPLATE_DEBUG = False
 SITE_ID = 1
 DEBUG_TOOLBAR_PATCH_SETTINGS = False
 
@@ -177,10 +177,10 @@ LANGUAGE_CODE = 'en'
 MODELTRANSLATION_DEFAULT_LANGUAGE = 'en'
 
 LANGUAGES = (
-    ('de', _('german')),
+    # ('de', _('german')),
     ('en', _('english')),
-    ('fr', _('french')),
-    ('it', _('italian')),
+    # ('fr', _('french')),
+    # ('it', _('italian')),
     ('nl', _('dutch'))
 )
 
@@ -215,11 +215,11 @@ THUMBNAIL_ALIASES = {
 PIWIK_SITE_ID = DEFAULT_SETTINGS['PIWIK']['SITE_ID']
 PIWIK_URL = DEFAULT_SETTINGS['PIWIK']['URL']
 
-GIT_URL = 'https://github.com/adfinis-sygroup/freedomvote'
+GIT_URL = 'https://github.com/freedomvote/freedomvote'
 
 # Metadata settings (according to https://django-meta.readthedocs.io/en/latest/settings.html)
-META_SITE_PROTOCOL = 'http'
-META_SITE_DOMAIN = 'localhost:8000'
+META_SITE_PROTOCOL = 'https'
+META_SITE_DOMAIN = 'freedomvote.nl'
 META_SITE_TYPE = 'website'
 META_DEFAULT_KEYWORDS = ['freedomvote', 'elections', 'politicians', 'states']
 META_INCLUDE_KEYWORDS = META_DEFAULT_KEYWORDS
