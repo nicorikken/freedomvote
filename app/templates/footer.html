@@ -3,13 +3,25 @@
 <footer class="footer">
     {% static_placeholder 'footer' %}
     <div class="center-content">
-        <div class="col-md-2">
+        <div class="col-xs-1 col-xs">
             <a class="footer-icon" href="{% url 'info' %}">
                 <img src="{% static 'images/json.svg' %}"><br>
                 API
             </a>
         </div>
-        <div class="col-md-2">
+        <div class="col-xs-1 col-xs-offset-1">
+            <a class="footer-icon" href="https://twitter.com/freedomvotenl">
+                <img src="{% static 'images/twitter.svg' %}"><br>
+                Twitter
+            </a>
+        </div>
+        <div class="col-xs-1 col-xs-offset-1">
+            <a class="footer-icon" href="https://quitter.no/freedomvotenl">
+                <img src="{% static 'images/gnu-social.svg' %}"><br>
+                GNU Social
+            </a>
+        </div>
+        <div class="col-xs-1 col-xs-offset-1">
             <a class="footer-icon" href="{% git_url %}">
                 <img src="{% static 'images/github.svg' %}"><br>
                 {% trans 'source_code' %}
