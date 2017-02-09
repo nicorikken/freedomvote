@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-30 06:27+0000\n"
-"PO-Revision-Date: 2017-01-30 07:26+0100\n"
+"PO-Revision-Date: 2017-02-09 20:24+0100\n"
 "Last-Translator: Nico Rikken <nico.rikken@fsfe.org>\n"
 "Language-Team: English <en@li.org>\n"
 "Language: en\n"
@@ -142,7 +142,7 @@ msgstr "Compare"
 
 #: core/menu.py:11
 msgid "candidates"
-msgstr "Candidates"
+msgstr "Parties"
 
 #: core/models.py:19 core/models.py:34 core/models.py:61
 msgid "name"
