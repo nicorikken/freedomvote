@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version:\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-30 06:42+0000\n"
-"PO-Revision-Date: 2017-01-30 07:42+0100\n"
+"POT-Creation-Date: 2017-02-14 16:52+0000\n"
+"PO-Revision-Date: 2017-02-14 17:55+0100\n"
 "Last-Translator: Gian-Maria Daffré <gian-maria.daffre@giammi.com>\n"
 "Language-Team: French <fr@li.org>\n"
 "Language: fr\n"
@@ -166,7 +166,6 @@ msgid "font_color"
 msgstr ""
 
 #: core/models.py:53 core/models.py:126
-#: core/templates/core/profile/description.html:29
 msgid "party"
 msgstr "Parti"
 
@@ -200,15 +199,15 @@ msgstr "Email"
 msgid "image"
 msgstr "Image"
 
-#: core/models.py:102 core/templates/core/profile/description.html:42
+#: core/models.py:102
 msgid "is_member_of_parliament"
 msgstr "Ancien membre du Conseil National ou le Conseil des Etats "
 
-#: core/models.py:106 core/templates/core/profile/description.html:34
+#: core/models.py:106
 msgid "past_contributions"
 msgstr "Contributions précédentes sur le sujet"
 
-#: core/models.py:110 core/templates/core/profile/description.html:38
+#: core/models.py:110
 msgid "future_plans"
 msgstr "Intentions et plans"
 
@@ -242,7 +241,7 @@ msgid "link"
 msgstr "Lien"
 
 #: core/models.py:205 core/templates/core/edit/profile.html:84
-#: core/templates/core/profile/description.html:61
+#: core/templates/core/profile/description.html:43
 msgid "links"
 msgstr "Liens"
 
@@ -325,7 +324,7 @@ msgid "own_opinion"
 msgstr "Propre opinion"
 
 #: core/templates/core/candidates/index.html:26
-#: core/templates/core/profile/description.html:52
+#: core/templates/core/profile/description.html:34
 msgid "add_own_opinion"
 msgstr "Propre opinion"
 
@@ -386,12 +385,10 @@ msgid "no_question_description"
 msgstr "Aucune description disponible"
 
 #: core/templates/core/helpers/scale.html:4
-#: core/templates/core/profile/description.html:43
 msgid "no"
 msgstr "Non"
 
 #: core/templates/core/helpers/scale.html:9
-#: core/templates/core/profile/description.html:43
 msgid "yes"
 msgstr "Oui"
 
@@ -420,18 +417,19 @@ msgid "copy_to_clipboard"
 msgstr "Copier l'url dans le presse-papiers"
 
 #: core/templates/core/party/dashboard.html:65
+#: core/templates/core/party/dashboard.html:66
 msgid "edit_politician"
 msgstr "Modifier le politicien"
 
-#: core/templates/core/party/dashboard.html:66
+#: core/templates/core/party/dashboard.html:67
 msgid "delete_politician"
 msgstr "Supprimer le politicien"
 
-#: core/templates/core/party/dashboard.html:79
+#: core/templates/core/party/dashboard.html:80
 msgid "copy_url_text"
 msgstr "Copiez l'url dans le presse-papiers"
 
-#: core/templates/core/party/dashboard.html:83
+#: core/templates/core/party/dashboard.html:84
 msgid "close"
 msgstr "Fermer"
 
@@ -447,11 +445,11 @@ msgstr "Ouverture de session"
 msgid "dashboard"
 msgstr "Tableau de bord"
 
-#: core/templates/core/profile/description.html:47
+#: core/templates/core/profile/description.html:29
 msgid "show_own_spider"
 msgstr "Voir sa propre opinion"
 
-#: core/templates/core/profile/description.html:81
+#: core/templates/core/profile/description.html:63
 msgid "embed_iframe"
 msgstr "Intégrer"
 
@@ -517,27 +515,15 @@ msgstr "Le politicien a été édité avec succès"
 msgid "politician_edit_error"
 msgstr "Il y avait une erreur lors de l'édition du politicien"
 
-#: core/views.py:638
+#: core/views.py:640
 msgid "politician_delete_success"
 msgstr "Le politicien a \"%s %s\" été supprimé avec succès"
 
-#: freedomvote/settings.py:180
-msgid "german"
-msgstr "Alemand"
-
-#: freedomvote/settings.py:181
+#: freedomvote/settings.py:193
 msgid "english"
 msgstr "Anglais"
 
-#: freedomvote/settings.py:182
-msgid "french"
-msgstr "Français"
-
-#: freedomvote/settings.py:183
-msgid "italian"
-msgstr "Italien"
-
-#: freedomvote/settings.py:184
+#: freedomvote/settings.py:196
 msgid "dutch"
 msgstr "Néerlandais"
 
@@ -549,7 +535,7 @@ msgstr "Page non trouvée"
 msgid "server_error"
 msgstr "Erreur du serveur"
 
-#: templates/footer.html:14
+#: templates/footer.html:27
 msgid "source_code"
 msgstr "Code source"
 
@@ -560,6 +546,19 @@ msgstr "Ce site ne sera complète que si javascript est activé."
 #: templates/navbar.html:7
 msgid "toggle_navigation"
 msgstr "Activer/désactiver le menu"
+
+#: templates/partner.html:6
+msgid "Our partners"
+msgstr "Nos partenaires"
+
+#~ msgid "german"
+#~ msgstr "Alemand"
+
+#~ msgid "french"
+#~ msgstr "Français"
+
+#~ msgid "italian"
+#~ msgstr "Italien"
 
 #~ msgid "icon"
 #~ msgstr "Icône"
@@ -575,9 +574,6 @@ msgstr "Activer/désactiver le menu"
 
 #~ msgid "partners"
 #~ msgstr "Partenaires"
-
-#~ msgid "our_partners"
-#~ msgstr "Nos partenaires"
 
 #~ msgid "parliament_building"
 #~ msgstr "Palais fédéral"

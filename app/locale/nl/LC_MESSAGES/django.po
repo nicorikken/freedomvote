@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-30 06:27+0000\n"
-"PO-Revision-Date: 2017-02-09 20:29+0100\n"
+"POT-Creation-Date: 2017-02-14 16:52+0000\n"
+"PO-Revision-Date: 2017-02-14 17:55+0100\n"
 "Last-Translator: Nico Rikken <nico.rikken@fsfe.org>\n"
 "Language-Team: Netherlands <nl@li.org>\n"
 "Language: nl\n"
@@ -175,7 +175,6 @@ msgid "font_color"
 msgstr "Tekstkleur"
 
 #: core/models.py:53 core/models.py:126
-#: core/templates/core/profile/description.html:29
 msgid "party"
 msgstr "Partij"
 
@@ -209,15 +208,15 @@ msgstr "E-mail"
 msgid "image"
 msgstr "Afbeelding"
 
-#: core/models.py:102 core/templates/core/profile/description.html:42
+#: core/models.py:102
 msgid "is_member_of_parliament"
 msgstr "Zittend parlementslid"
 
-#: core/models.py:106 core/templates/core/profile/description.html:34
+#: core/models.py:106
 msgid "past_contributions"
 msgstr "Eerdere bijdragen over dit onderwerp"
 
-#: core/models.py:110 core/templates/core/profile/description.html:38
+#: core/models.py:110
 msgid "future_plans"
 msgstr "Intenties en plannen"
 
@@ -251,7 +250,7 @@ msgid "link"
 msgstr "Link"
 
 #: core/models.py:205 core/templates/core/edit/profile.html:84
-#: core/templates/core/profile/description.html:61
+#: core/templates/core/profile/description.html:43
 msgid "links"
 msgstr "Links"
 
@@ -334,7 +333,7 @@ msgid "own_opinion"
 msgstr "Uw standpunt"
 
 #: core/templates/core/candidates/index.html:26
-#: core/templates/core/profile/description.html:52
+#: core/templates/core/profile/description.html:34
 msgid "add_own_opinion"
 msgstr "Uw eigen standpunt invoeren"
 
@@ -396,12 +395,10 @@ msgid "no_question_description"
 msgstr "Geen beschrijving beschikbaar"
 
 #: core/templates/core/helpers/scale.html:4
-#: core/templates/core/profile/description.html:43
 msgid "no"
 msgstr "Nee"
 
 #: core/templates/core/helpers/scale.html:9
-#: core/templates/core/profile/description.html:43
 msgid "yes"
 msgstr "Ja"
 
@@ -430,18 +427,19 @@ msgid "copy_to_clipboard"
 msgstr "URL kopiëren naar klembord"
 
 #: core/templates/core/party/dashboard.html:65
+#: core/templates/core/party/dashboard.html:66
 msgid "edit_politician"
 msgstr "Politicus bewerken"
 
-#: core/templates/core/party/dashboard.html:66
+#: core/templates/core/party/dashboard.html:67
 msgid "delete_politician"
 msgstr "Politicus verwijderen"
 
-#: core/templates/core/party/dashboard.html:79
+#: core/templates/core/party/dashboard.html:80
 msgid "copy_url_text"
 msgstr "URL kopiëren naar klembord"
 
-#: core/templates/core/party/dashboard.html:83
+#: core/templates/core/party/dashboard.html:84
 msgid "close"
 msgstr "Sluiten"
 
@@ -457,11 +455,11 @@ msgstr "Log in"
 msgid "dashboard"
 msgstr "Dashboard"
 
-#: core/templates/core/profile/description.html:47
+#: core/templates/core/profile/description.html:29
 msgid "show_own_spider"
 msgstr "Eigen mening bekijken"
 
-#: core/templates/core/profile/description.html:81
+#: core/templates/core/profile/description.html:63
 msgid "embed_iframe"
 msgstr "Insluiten"
 
@@ -525,27 +523,15 @@ msgstr "De politicus is succesvol bewerkt"
 msgid "politician_edit_error"
 msgstr "Er ontstond een probleem bij het bewerken van de politicus"
 
-#: core/views.py:638
+#: core/views.py:640
 msgid "politician_delete_success"
 msgstr "Politicus '%s %s' is succesvol verwijderd"
 
-#: freedomvote/settings.py:180
-msgid "german"
-msgstr "Duits"
-
-#: freedomvote/settings.py:181
+#: freedomvote/settings.py:193
 msgid "english"
 msgstr "Engels"
 
-#: freedomvote/settings.py:182
-msgid "french"
-msgstr "Frans"
-
-#: freedomvote/settings.py:183
-msgid "italian"
-msgstr "Italiaans"
-
-#: freedomvote/settings.py:184
+#: freedomvote/settings.py:196
 msgid "dutch"
 msgstr "Nederlands"
 
@@ -557,7 +543,7 @@ msgstr "Pagina niet gevonden"
 msgid "server_error"
 msgstr "Server probleem"
 
-#: templates/footer.html:14
+#: templates/footer.html:27
 msgid "source_code"
 msgstr "Broncode"
 
@@ -569,6 +555,19 @@ msgstr ""
 #: templates/navbar.html:7
 msgid "toggle_navigation"
 msgstr "Menu omschakelen"
+
+#: templates/partner.html:6
+msgid "Our partners"
+msgstr "Onze partners"
+
+#~ msgid "german"
+#~ msgstr "Duits"
+
+#~ msgid "french"
+#~ msgstr "Frans"
+
+#~ msgid "italian"
+#~ msgstr "Italiaans"
 
 #~ msgid "icon"
 #~ msgstr "Pictogram"
@@ -584,9 +583,6 @@ msgstr "Menu omschakelen"
 
 #~ msgid "partners"
 #~ msgstr "Partners"
-
-#~ msgid "our_partners"
-#~ msgstr "Onze partners"
 
 #~ msgid "parliament_building"
 #~ msgstr "Parlementsgebouw"

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version:\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-30 06:42+0000\n"
-"PO-Revision-Date: 2017-01-30 07:42+0100\n"
+"POT-Creation-Date: 2017-02-14 16:52+0000\n"
+"PO-Revision-Date: 2017-02-14 17:55+0100\n"
 "Last-Translator: Gian-Maria Daffré <gian-maria.daffre@giammi.com>\n"
 "Language-Team: Italian <it@li.org>\n"
 "Language: it\n"
@@ -166,7 +166,6 @@ msgid "font_color"
 msgstr ""
 
 #: core/models.py:53 core/models.py:126
-#: core/templates/core/profile/description.html:29
 msgid "party"
 msgstr "Partito"
 
@@ -200,15 +199,15 @@ msgstr "Email"
 msgid "image"
 msgstr "Immagine"
 
-#: core/models.py:102 core/templates/core/profile/description.html:42
+#: core/models.py:102
 msgid "is_member_of_parliament"
 msgstr "Precedente membro del parlamento o senato"
 
-#: core/models.py:106 core/templates/core/profile/description.html:34
+#: core/models.py:106
 msgid "past_contributions"
 msgstr "Precedenti contributi relativi al tema"
 
-#: core/models.py:110 core/templates/core/profile/description.html:38
+#: core/models.py:110
 msgid "future_plans"
 msgstr "Precedenti intenzioni e propositi"
 
@@ -242,7 +241,7 @@ msgid "link"
 msgstr "Link"
 
 #: core/models.py:205 core/templates/core/edit/profile.html:84
-#: core/templates/core/profile/description.html:61
+#: core/templates/core/profile/description.html:43
 msgid "links"
 msgstr "Link"
 
@@ -325,7 +324,7 @@ msgid "own_opinion"
 msgstr "Opinione pers."
 
 #: core/templates/core/candidates/index.html:26
-#: core/templates/core/profile/description.html:52
+#: core/templates/core/profile/description.html:34
 msgid "add_own_opinion"
 msgstr "Aggiungi opinione personale"
 
@@ -386,12 +385,10 @@ msgid "no_question_description"
 msgstr "Nessuna descrizione"
 
 #: core/templates/core/helpers/scale.html:4
-#: core/templates/core/profile/description.html:43
 msgid "no"
 msgstr "No"
 
 #: core/templates/core/helpers/scale.html:9
-#: core/templates/core/profile/description.html:43
 msgid "yes"
 msgstr "Si"
 
@@ -420,18 +417,19 @@ msgid "copy_to_clipboard"
 msgstr "Copiare la URL nella cartella di appunti"
 
 #: core/templates/core/party/dashboard.html:65
+#: core/templates/core/party/dashboard.html:66
 msgid "edit_politician"
 msgstr "Modifica del politico"
 
-#: core/templates/core/party/dashboard.html:66
+#: core/templates/core/party/dashboard.html:67
 msgid "delete_politician"
 msgstr "Cancellazione del politico"
 
-#: core/templates/core/party/dashboard.html:79
+#: core/templates/core/party/dashboard.html:80
 msgid "copy_url_text"
 msgstr "Copiare la URL nella cartella di appunti"
 
-#: core/templates/core/party/dashboard.html:83
+#: core/templates/core/party/dashboard.html:84
 msgid "close"
 msgstr "Chiudere"
 
@@ -447,11 +445,11 @@ msgstr "Connettersi"
 msgid "dashboard"
 msgstr "Cruscotto"
 
-#: core/templates/core/profile/description.html:47
+#: core/templates/core/profile/description.html:29
 msgid "show_own_spider"
 msgstr "Visualizzare la propria opinione"
 
-#: core/templates/core/profile/description.html:81
+#: core/templates/core/profile/description.html:63
 msgid "embed_iframe"
 msgstr "Codice da incorporare"
 
@@ -516,27 +514,15 @@ msgstr "Politico è stato aggiunto correttamente"
 msgid "politician_edit_error"
 msgstr "Ci sono stati degli errori nel modificare il politico"
 
-#: core/views.py:638
+#: core/views.py:640
 msgid "politician_delete_success"
 msgstr "Politico \"%s %s\" è stato annullato correttamente"
 
-#: freedomvote/settings.py:180
-msgid "german"
-msgstr "Tedesco"
-
-#: freedomvote/settings.py:181
+#: freedomvote/settings.py:193
 msgid "english"
 msgstr "Inglese"
 
-#: freedomvote/settings.py:182
-msgid "french"
-msgstr "Francese"
-
-#: freedomvote/settings.py:183
-msgid "italian"
-msgstr "Italiano"
-
-#: freedomvote/settings.py:184
+#: freedomvote/settings.py:196
 msgid "dutch"
 msgstr "Neerlandese"
 
@@ -548,7 +534,7 @@ msgstr "Pagina non ritrovata"
 msgid "server_error"
 msgstr "Errore del server"
 
-#: templates/footer.html:14
+#: templates/footer.html:27
 msgid "source_code"
 msgstr "Codice sorgente"
 
@@ -559,6 +545,19 @@ msgstr "Questo sito sarà completa solo se javascript è abilitato."
 #: templates/navbar.html:7
 msgid "toggle_navigation"
 msgstr "Menu di commutazione"
+
+#: templates/partner.html:6
+msgid "Our partners"
+msgstr "I nostri partner"
+
+#~ msgid "german"
+#~ msgstr "Tedesco"
+
+#~ msgid "french"
+#~ msgstr "Francese"
+
+#~ msgid "italian"
+#~ msgstr "Italiano"
 
 #~ msgid "icon"
 #~ msgstr "Icona"
@@ -574,9 +573,6 @@ msgstr "Menu di commutazione"
 
 #~ msgid "partners"
 #~ msgstr "Partner"
-
-#~ msgid "our_partners"
-#~ msgstr "I nostri partner"
 
 #~ msgid "parliament_building"
 #~ msgstr "Palazzo federale"

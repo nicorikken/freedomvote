@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-30 06:27+0000\n"
-"PO-Revision-Date: 2017-02-09 20:24+0100\n"
+"POT-Creation-Date: 2017-02-14 16:52+0000\n"
+"PO-Revision-Date: 2017-02-14 17:54+0100\n"
 "Last-Translator: Nico Rikken <nico.rikken@fsfe.org>\n"
 "Language-Team: English <en@li.org>\n"
 "Language: en\n"
@@ -172,7 +172,6 @@ msgid "font_color"
 msgstr "Font color"
 
 #: core/models.py:53 core/models.py:126
-#: core/templates/core/profile/description.html:29
 msgid "party"
 msgstr "Party"
 
@@ -206,15 +205,15 @@ msgstr "Email"
 msgid "image"
 msgstr "Image"
 
-#: core/models.py:102 core/templates/core/profile/description.html:42
+#: core/models.py:102
 msgid "is_member_of_parliament"
 msgstr "Member of parliament"
 
-#: core/models.py:106 core/templates/core/profile/description.html:34
+#: core/models.py:106
 msgid "past_contributions"
 msgstr "Post contributions on this subject"
 
-#: core/models.py:110 core/templates/core/profile/description.html:38
+#: core/models.py:110
 msgid "future_plans"
 msgstr "Intentions and plans"
 
@@ -248,7 +247,7 @@ msgid "link"
 msgstr "Link"
 
 #: core/models.py:205 core/templates/core/edit/profile.html:84
-#: core/templates/core/profile/description.html:61
+#: core/templates/core/profile/description.html:43
 msgid "links"
 msgstr "Links"
 
@@ -331,7 +330,7 @@ msgid "own_opinion"
 msgstr "Your stance"
 
 #: core/templates/core/candidates/index.html:26
-#: core/templates/core/profile/description.html:52
+#: core/templates/core/profile/description.html:34
 msgid "add_own_opinion"
 msgstr "Add your own stance"
 
@@ -393,12 +392,10 @@ msgid "no_question_description"
 msgstr "No description available"
 
 #: core/templates/core/helpers/scale.html:4
-#: core/templates/core/profile/description.html:43
 msgid "no"
 msgstr "No"
 
 #: core/templates/core/helpers/scale.html:9
-#: core/templates/core/profile/description.html:43
 msgid "yes"
 msgstr "Yes"
 
@@ -427,18 +424,19 @@ msgid "copy_to_clipboard"
 msgstr "Copy URL to clipboard"
 
 #: core/templates/core/party/dashboard.html:65
+#: core/templates/core/party/dashboard.html:66
 msgid "edit_politician"
 msgstr "Edit politician"
 
-#: core/templates/core/party/dashboard.html:66
+#: core/templates/core/party/dashboard.html:67
 msgid "delete_politician"
 msgstr "Delete politician"
 
-#: core/templates/core/party/dashboard.html:79
+#: core/templates/core/party/dashboard.html:80
 msgid "copy_url_text"
 msgstr "Copy URL to clipboard"
 
-#: core/templates/core/party/dashboard.html:83
+#: core/templates/core/party/dashboard.html:84
 msgid "close"
 msgstr "Close"
 
@@ -454,11 +452,11 @@ msgstr "Login"
 msgid "dashboard"
 msgstr "Dashboard"
 
-#: core/templates/core/profile/description.html:47
+#: core/templates/core/profile/description.html:29
 msgid "show_own_spider"
 msgstr "View your stance"
 
-#: core/templates/core/profile/description.html:81
+#: core/templates/core/profile/description.html:63
 msgid "embed_iframe"
 msgstr "Embed"
 
@@ -522,27 +520,15 @@ msgstr "The politician is edited successfully"
 msgid "politician_edit_error"
 msgstr "There was an error whilst editing the politican"
 
-#: core/views.py:638
+#: core/views.py:640
 msgid "politician_delete_success"
 msgstr "Politican '%s %s' was deleted successfully"
 
-#: freedomvote/settings.py:180
-msgid "german"
-msgstr "German"
-
-#: freedomvote/settings.py:181
+#: freedomvote/settings.py:193
 msgid "english"
 msgstr "English"
 
-#: freedomvote/settings.py:182
-msgid "french"
-msgstr "French"
-
-#: freedomvote/settings.py:183
-msgid "italian"
-msgstr "Italian"
-
-#: freedomvote/settings.py:184
+#: freedomvote/settings.py:196
 msgid "dutch"
 msgstr "Dutch"
 
@@ -554,7 +540,7 @@ msgstr "Page not found"
 msgid "server_error"
 msgstr "Server error"
 
-#: templates/footer.html:14
+#: templates/footer.html:27
 msgid "source_code"
 msgstr "Source code"
 
@@ -565,6 +551,19 @@ msgstr "This website is only fully operations if Javascript is enabled."
 #: templates/navbar.html:7
 msgid "toggle_navigation"
 msgstr "Toggle navigation"
+
+#: templates/partner.html:6
+msgid "Our partners"
+msgstr "Our partners"
+
+#~ msgid "german"
+#~ msgstr "German"
+
+#~ msgid "french"
+#~ msgstr "French"
+
+#~ msgid "italian"
+#~ msgstr "Italian"
 
 #~ msgid "icon"
 #~ msgstr "Icon"
@@ -580,9 +579,6 @@ msgstr "Toggle navigation"
 
 #~ msgid "partners"
 #~ msgstr "Partners"
-
-#~ msgid "our_partners"
-#~ msgstr "Our partners"
 
 #~ msgid "parliament_building"
 #~ msgstr "Parliament building"

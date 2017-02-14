@@ -206,6 +206,7 @@ USE_TZ = True
 
 CMS_TEMPLATES = (
     ('home.html', 'Home'),
+    ('partner.html', 'Partners'),
 )
 
 # Static files (CSS, JavaScript, Images)
